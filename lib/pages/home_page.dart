@@ -159,6 +159,7 @@ class HomePage extends StatelessWidget {
               SizedBox(height: 50 + edge),
             ],
           )),
+      // NOTE: Bottom Navigator
       floatingActionButton: Container(
         width: MediaQuery.of(context).size.width - (2 * edge),
         height: 65,
